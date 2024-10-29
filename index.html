@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/boxicons-2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+            <!-- Brand Name/Logo -->
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Nisarg <span class="text-primary">Oza </span> </h4>
+                </a>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li> 
+                            <a href="#home" class="nav-link" data-scroll-nav="0">Home</a>
+                        </li>
+                        <li> 
+                            <a href="#about" class="nav-link" data-scroll-nav="1">About Me</a>
+                        </li>
+                        <li> 
+                            <a href="#experience" class="nav-link" data-scroll-nav="2">Experience</a>
+                        </li>
+                        <li> 
+                            <a href="#skills" class="nav-link" data-scroll-nav="3">Skills</a>
+                        </li>
+                        <li> 
+                            <a href="#portfolio" class="nav-link" data-scroll-nav="4">Projects</a>
+                        </li>
+                    </ul> 
+                </div>
+
+                <!-- Button -->
+                <div class="ms-auto d-none d-lg-block">
+                    <a class="colored-btn" href="#contact" data-scroll-nav="5">Contact Me!</a>
+                </div>
+                
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle" > 
+                    <span></span> 
+                    <span></span> 
+                    <span></span> 
+                </button>
+            </div> 
+        </nav>
+    </header>
+
+    <!-- Main -->
+     <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section bg-gray" data-scroll-index="0">
+            <div class="container">
+                <div class="anim-elements">
+                    <div class="anim-element"><i class="bx bxl-html5"></i></div>
+                    <div class="anim-element"><i class="bx bxl-css3"></i></div>
+                    <div class="anim-element"><i class="bx bxl-react"></i></div>
+                    <div class="anim-element"><i class="bx bxl-android"></i></div>
+                    <div class="anim-element"><i class="bx bxl-apple"></i></div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Hi, My name is Nisarg.</h6>
+                            <h1>I'm a <span id="type-it"></span></h1>
+                            <p>Based in San Jose, California</p>
+                            <a href="#about" class="colored-btn mt-1">
+                                About Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="assets/img/grad_peace.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" data-scroll-index="1">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="assets/img/jcb.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="about-text">
+                            <h3 class="h1 mb-3 text-dark fw-semibold">
+                                🚀 Creative and Solution-Oriented Full Stack Developer
+                            </h3>
+                            <p>👨‍💻 I am a driven software engineer passionate about building efficient, scalable solutions. With a strong foundation in front-end and back-end development, I excel in creating intuitive, responsive UIs and robust APIs.</p>
+                            <p>☁️ My expertise spans cloud services, data processing, and distributed systems, consistently delivering results in Agile environments.</p>
+                            <p>🌍 Outside of tech, I enjoy exploring new places, delving into mystery novels, and experimenting with new recipes in the kitchen 👨‍🍳🍲.</p>
+                            <a href="#about" class="colored-btn mt-1">
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <!-- <section id="services" class="section bg-gray" style="background-image: url(assets/img/my-image.jpg); background-repeat: no-repeat; background-size: cover;" data-scroll-index="2">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>My Services</h3>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="feature-box bg-1">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Design</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-2">
+                            <div class="icon"><i class="bx bx-desktop"></i></div>
+                            <div class="content">
+                                <h5>Development</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-3">
+                            <div class="icon"><i class="bx bx-globe"></i></div>
+                            <div class="content">
+                                <h5>SEO Marketing</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-4">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Design</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-5">
+                            <div class="icon"><i class="bx bx-desktop"></i></div>
+                            <div class="content">
+                                <h5>Development</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-6">
+                            <div class="icon"><i class="bx bx-globe"></i></div>
+                            <div class="content">
+                                <h5>SEO Marketing</h5>
+                                <p>Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!-- Experience and Education Timeline -->
+        <section id="experience" class="section bg-gray" data-scroll-index="2">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Experience & Education</h3>
+                </div>
+                <div class="timeline">
+                    <!-- Experience Icon on Main Line -->
+                    <div class="timeline-icon-section">
+                        <div class="timeline-icon-main">
+                            <i class="bx bx-briefcase"></i>
+                        </div>
+                    </div>
+                    <!-- Experience Items -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Software Developer - Web & Mobile</h4>
+                            <p>SCU Frugal Innovation Hub - October 2023 to October 2024</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Software Developer</h4>
+                            <p>AutoDAP - May 2021 to November 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Software Developer Intern</h4>
+                            <p>Gateway Group Of Companies - November 2020 to April 2021</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Software Developer Intern</h4>
+                            <p>ExpertsHub - December 2019 to March 2020</p>
+                        </div>
+                    </div>
+                    <!-- Education Icon on Main Line -->
+                    <div class="timeline-icon-section">
+                        <div class="timeline-icon-main">
+                            <i class="bx bx-book"></i>
+                        </div>
+                    </div>
+                    <!-- Education Items -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Master of Science in Computer Science and Engineering</h4>
+                            <p>Santa Clara University - Graduated June 2024</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Bachelor of Technology in Information Technology</h4>
+                            <p>Dharmsinh Desai University - Graduated April 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skill" class="section" data-scroll-index="3">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="section-heading text-start">
+                            <h3 class="skillSpace">My Skills</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row g-3">
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class="bx bxl-react"></i>
+                                        </div>
+                                        <h6>React.js</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-2">
+                                        <div class="icon">
+                                            <i class="bx bxl-nodejs"></i>
+                                        </div>
+                                        <h6>Node.js</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-3">
+                                        <div class="icon">
+                                            <i class="bx bxl-aws"></i>
+                                        </div>
+                                        <h6>Amazon Web Services</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-4">
+                                        <div class="icon">
+                                            <i class="bx bxl-postgresql"></i>
+                                        </div>
+                                        <h6>PostgreSQL</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-5">
+                                        <div class="icon">
+                                            <i class="bx bxl-java"></i>
+                                        </div>
+                                        <h6>Java</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-6">
+                                        <div class="icon">
+                                            <i class="bx bxl-python"></i>
+                                        </div>
+                                        <h6>Python</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-7">
+                                        <div class="icon">
+                                            <i class="bx bxl-typescript"></i>
+                                        </div>
+                                        <h6>TypeScript</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-8">
+                                        <div class="icon">
+                                            <i class="bx bxl-flutter"></i>
+                                        </div>
+                                        <h6>Flutter</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-9">
+                                        <div class="icon">
+                                            <i class="bx bxl-mongodb"></i>
+                                        </div>
+                                        <h6>MongoDB</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-10">
+                                        <div class="icon">
+                                            <i class="bx bxl-git"></i>
+                                        </div>
+                                        <h6>Git</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="assets/img/vecteezypeople-isometric-illustration-2ZM0421_generated.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="portfolio" class="section bg-gray" data-scroll-index="4">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Latest Projects</h3>
+                </div>
+                <div class="portfolio-box">
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/linkup.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Web Development</span>
+                                <h4>LinkUp: Real-time Collaboration Platform</h4>
+                                <p>A full-stack scalable real-time multimedia messaging platform with 15+ features, supporting 100+ users with role-based access and full mobile responsiveness.</p>
+                                <a href="https://github.com/nisarg-github2000/Link-Up" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/aws.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Cloud - AWS</span>
+                                <h4>Development using AWS</h4>
+                                <p>Developed and deplyed a serverless application using AWS services, enhancing CI/CD efficiency by 40%.</p>
+                                <a href="https://github.com/nisarg-github2000/" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/applicant.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>GenAI</span>
+                                <h4>Applicant Tracking System</h4>
+                                <p>Contributed to GenAI by creating ATS, accelerating hiring efficiency by 20% using Google Gemini's LLM.</p>
+                                <a href="https://github.com/nisarg-github2000/Applicant-Tracking-System" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/dis.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Distributed Systems</span>
+                                <h4>Cloud-based distributed task processing system</h4>
+                                <p>A fault-tolerant distributed task processing system with AWS, reducing latency by 30%.</p>
+                                <a href="https://github.com/nisarg-github2000/Distributed-Task-Processing-System" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/ml.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Machine Learning</span>
+                                <h4>Credit Card Fraud Detection </h4>
+                                <p>Contributed to GenAI by creating ATS, accelerating hiring efficiency by 20% using Google Gemini's LLM.</p>
+                                <a href="https://github.com/nisarg-github2000/Credit-Card-Fraud-Detection" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="assets/img/health.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Mobile App Development</span>
+                                <h4>Medo - Healthcare App </h4>
+                                <p>A React Native healthcare app handling 500+ monthly bookings, cutting errors by 30%, with secure payments.</p>
+                                <a href="https://github.com/nisarg-github2000/medo" target="_blank" class="colored-btn mt-1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- Testimonials -->
+        <!-- <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Testimonials</h3>
+                </div>
+                <div class="owl-carousel">
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="assets/img/my-image.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb-3">
+                                Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.
+                            </p>
+                            <h6 class="mb-0 text-dark fw-semibold">Hetal Oza</h6>
+                            <small>CEO at XYZ Tech</small>
+                        </div>
+                    </div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="assets/img/my-image.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb-3">
+                                Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.
+                            </p>
+                            <h6 class="mb-0 text-dark fw-semibold">Hetal Oza</h6>
+                            <small>CEO at XYZ Tech</small>
+                        </div>
+                    </div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="assets/img/my-image.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb-3">
+                                Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.
+                            </p>
+                            <h6 class="mb-0 text-dark fw-semibold">Hetal Oza</h6>
+                            <small>CEO at XYZ Tech</small>
+                        </div>
+                    </div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="assets/img/my-image.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb-3">
+                                Lorem ipsum akjfb fwefh fd d df df dfdfd dfdf dfbd kjfbbe bgk fb fghfbghfeg fg fg fg fgegfejeg.
+                            </p>
+                            <h6 class="mb-0 text-dark fw-semibold">Hetal Oza</h6>
+                            <small>CEO at XYZ Tech</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-dark" data-scroll-index="5">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <h2 class="text-dark">Get in touch!</h2>
+                            <p class="lead">Feel free to reach out for any inquiries, collaborations, or just to connect!</p>
+                            <form id="contactForm" action="#">
+                                <div class="row gy-4 gx-3">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" name="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Subject</label>
+                                            <input type="text" class="form-control" name="subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Message</label>
+                                            <textarea name="message" rows="3" class="form-control" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="colored-btn" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ms-auto col-xl-4">
+                        <div class="pb-5 d-none d-md-block">
+                            <img src="assets/img/con2.jpeg" class="w-100" alt="">
+                        </div>
+                        <ul class="contact-infos">
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bx-phone"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Phone</h5>
+                                    <a href="tel:+12065793865"><p>+1(206)579-3865</p></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-2">
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Email</h5>
+                                    <a href="mailto:youremail@example.com"><p>nisargoza2000@gmail.com</p></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-3">
+                                    <i class="bx bx-map"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Hometown</h5>
+                                    <a href="https://www.google.com/maps/place/San+Jose,+CA/@37.2956433,-121.9778873,11.05z/data=!4m15!1m8!3m7!1s0x808fcae48af93ff5:0xb99d8c0aca9f717b!2sSan+Jose,+CA!3b1!8m2!3d37.33874!4d-121.8852525!16zL20vMGYwNHY!3m5!1s0x808fcae48af93ff5:0xb99d8c0aca9f717b!8m2!3d37.33874!4d-121.8852525!16zL20vMGYwNHY?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><p>San Jose, California, CA</p></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-2">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a href="https://www.linkedin.com/in/nisarg-oza-050377176" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/nisarg-github2000" target="_blank"><i class="bx bxl-github"></i></a>
+                        <a href="https://www.facebook.com/nisarg.oza.39?sfnsn=wa&mibextid=RUbZ1f" target="_blank"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/nisarg_ozaa?igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://pin.it/Nk1APnOin" target="_blank"><i class="bx bxl-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 py-2 text-center text-md-end">
+                    <p class="m-0"> Made with ♥ by <a href="#">Nisarg Oza</a></p>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendor/typed.js-main/dist/typed.umd.js"></script>
+    <script src="assets/vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/vendor/scroll/scrollIt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("ZF6SLZX2A76R3-h6J"); // Replace with your actual Public API Key
+        })();
+
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent traditional form submission
+
+            const name = document.querySelector('input[name="name"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const subject = document.querySelector('input[name="subject"]').value;
+            const message = document.querySelector('textarea[name="message"]').value;
+
+            // Send email using EmailJS
+            emailjs.send('service_42biwhy', 'template_gph76hn', {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message,
+            })
+            .then((response) => {
+                alert('Message sent successfully!');
+            }, (error) => {
+                alert('There was a problem sending your message. Please try again later.');
+                console.error('EmailJS Error:', error);
+            });
+        });
+    </script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
